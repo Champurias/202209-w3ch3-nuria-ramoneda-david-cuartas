@@ -25,6 +25,8 @@ module.exports = {
   },
   rules: {
     "@typescript-eslint/consistent-type-definitions": "off",
+
+    "@typescript-eslint/consistent-type-imports": "off",
     "no-unused-vars": [
       "error",
       {
