@@ -23,6 +23,7 @@ module.exports = {
     sourceType: "module",
   },
   rules: {
+    "@typescript-eslint/consistent-type-imports": "off",
     "no-unused-vars": [
       "error",
       {
