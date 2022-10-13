@@ -1,4 +1,4 @@
-import Component from "./component.js";
+import Component from "./Component.js";
 
 describe("Given a new instance of a component", () => {
   describe("When it's call with a class of 'main' and a tag of 'div'", () => {
