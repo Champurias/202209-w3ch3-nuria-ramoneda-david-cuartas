@@ -1,7 +1,5 @@
-import Component from "./components/Component/component.js";
+import Header from "./components/Header/Header.js";
 
-const parentElement = document.querySelector(".app");
-
-const newDiv = new Component(parentElement as HTMLElement, "maria", "ul");
-
-newDiv.render();
+const appContainer: HTMLElement = document.querySelector(".app");
+const header = new Header(appContainer);
+header.render();

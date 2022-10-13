@@ -12,7 +12,7 @@ class Component implements ComponentSignature {
     this.domElement.className = className;
   }
 
-  render() {
+  render(): void {
     this.parentElement.appendChild(this.domElement);
   }
 }
