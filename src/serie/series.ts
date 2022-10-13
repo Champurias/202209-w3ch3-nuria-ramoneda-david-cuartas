@@ -1,5 +1,5 @@
 import type SeriesDeclarated from "./types.js";
-const series:SeriesDeclarated[] = [
+const series: SeriesDeclarated[] = [
   {
     id: 1,
     name: "The Sopranos",
