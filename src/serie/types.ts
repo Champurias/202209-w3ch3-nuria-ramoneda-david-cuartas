@@ -7,6 +7,5 @@ interface SeriesDeclarated {
   watched: boolean;
   score: number;
   emmies: number;
-  changeWhached: (score: number) => void;
 }
 export default SeriesDeclarated;
