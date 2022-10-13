@@ -8,7 +8,7 @@ class Header extends Component {
   render(): void {
     super.render();
     this.domElement.innerHTML = `
-    <h1 class="main-title">My Series</h1>`;
+    <h1 class="main-title">My Seeries</h1>`;
   }
 }
 
