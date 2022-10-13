@@ -2,7 +2,7 @@ import Header from "./Header";
 
 describe("Given a new instance of Header", () => {
   describe("When its rendered", () => {
-    test("Then it will render the title 'My Series'", () => {
+    test("Then it will render the title all 'My Series'", () => {
       const screen = document.createElement("div");
 
       const expectedResult = "My Series";
