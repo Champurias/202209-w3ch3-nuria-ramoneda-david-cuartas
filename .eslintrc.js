@@ -16,6 +16,17 @@ module.exports = {
         ],
         "@typescript-eslint/indent": "off",
         "@typescript-eslint/no-empty-function": "off",
+        "no-unused-vars": [
+          "error",
+          {
+            vars: "all",
+            args: "after-used",
+            ignoreRestSiblings: true,
+            argsIgnorePattern: /^_/.source,
+            caughtErrors: "all",
+            caughtErrorsIgnorePattern: /^_$/.source,
+          },
+        ],
       },
     },
   ],
@@ -25,16 +36,5 @@ module.exports = {
   },
   rules: {
     "@typescript-eslint/consistent-type-definitions": "off",
-    "no-unused-vars": [
-      "error",
-      {
-        vars: "all",
-        args: "after-used",
-        ignoreRestSiblings: true,
-        argsIgnorePattern: /^_/.source,
-        caughtErrors: "all",
-        caughtErrorsIgnorePattern: /^_$/.source,
-      },
-    ],
   },
 };
