@@ -21,11 +21,21 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-xo": "^0.42.0",
     "eslint-config-xo-typescript": "^0.53.0",
+<<<<<<< Updated upstream
     "husky": "^8.0.1",
+=======
+    "husky": "^8.0.0",
+>>>>>>> Stashed changes
     "jest": "^29.1.2",
     "jest-environment-jsdom": "^29.1.2",
     "jest-ts-webcompat-resolver": "^1.0.0",
     "ts-jest": "^29.0.3",
     "typescript": "^4.8.4"
+<<<<<<< Updated upstream
+=======
+  },
+  "dependencies": {
+    "@types/jest": "^29.1.2"
+>>>>>>> Stashed changes
   }
 }
